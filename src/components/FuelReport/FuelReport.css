@@ -1,0 +1,19 @@
+.reportDiv table{
+    margin: unset;
+}
+
+.reportDiv table tr th{
+    min-width: 80px;
+}
+
+.reportDiv table tr th.wideHeading{
+    min-width: 160px;
+}
+
+.reportDiv table tr td{
+    height: unset;
+}
+
+.reportDiv .fontBold{
+    font-weight: 700;
+}

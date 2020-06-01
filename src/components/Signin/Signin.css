@@ -1,0 +1,38 @@
+.formContainer{
+    /* width: 50%; */
+    margin: auto;
+}
+
+.formInput, .btnDiv{
+    padding: 10px;
+}
+
+.label{
+    width: 120px;
+    display: inline-block;
+}
+
+.input{
+    display: inline-block;
+}
+
+.input input, select{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 12px;
+    width: 200px;
+}
+
+select{
+    width: 226px;
+}
+
+.btn{
+    width: 120px;
+    border: 1px solid transparent;
+    background-color: #4cae4c;
+    padding: 8px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}

@@ -1,0 +1,19 @@
+.reportContainerDiv{
+    margin-left: 35%;
+    width: 50%;
+    text-align: left;
+}
+
+.reportDiv table{
+    margin: auto;
+    text-align: left;
+}
+
+.reportDiv table thead tr th, td{
+    background-color: unset;
+    padding: unset;
+}
+
+.reportDiv table tbody tr:nth-child(even) {
+    background-color: unset;
+  }

@@ -1,0 +1,15 @@
+.btnOpenModal{
+    border: 1px solid transparent;
+    padding: 7px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #4cae4c;
+    margin: 20px;
+}
+
+.popup-content{
+    width: unset !important;
+    border-radius: 6px;
+    padding: 25px 50px 25px 15px !important;
+}
