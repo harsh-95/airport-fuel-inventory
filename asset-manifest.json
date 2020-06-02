@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/airport-fuel-inventory/static/css/main.757b9a11.chunk.css",
-    "main.js": "/airport-fuel-inventory/static/js/main.9579791d.chunk.js",
-    "main.js.map": "/airport-fuel-inventory/static/js/main.9579791d.chunk.js.map",
-    "runtime-main.js": "/airport-fuel-inventory/static/js/runtime-main.8bcbb2e5.js",
-    "runtime-main.js.map": "/airport-fuel-inventory/static/js/runtime-main.8bcbb2e5.js.map",
-    "static/js/2.7131f240.chunk.js": "/airport-fuel-inventory/static/js/2.7131f240.chunk.js",
-    "static/js/2.7131f240.chunk.js.map": "/airport-fuel-inventory/static/js/2.7131f240.chunk.js.map",
-    "index.html": "/airport-fuel-inventory/index.html",
-    "precache-manifest.9a8928e40199258d0b8805fac26106d6.js": "/airport-fuel-inventory/precache-manifest.9a8928e40199258d0b8805fac26106d6.js",
-    "service-worker.js": "/airport-fuel-inventory/service-worker.js",
-    "static/css/main.757b9a11.chunk.css.map": "/airport-fuel-inventory/static/css/main.757b9a11.chunk.css.map",
-    "static/js/2.7131f240.chunk.js.LICENSE.txt": "/airport-fuel-inventory/static/js/2.7131f240.chunk.js.LICENSE.txt"
+    "main.css": "/login/static/css/main.969a7493.chunk.css",
+    "main.js": "/login/static/js/main.39f58b13.chunk.js",
+    "main.js.map": "/login/static/js/main.39f58b13.chunk.js.map",
+    "runtime-main.js": "/login/static/js/runtime-main.975a3f31.js",
+    "runtime-main.js.map": "/login/static/js/runtime-main.975a3f31.js.map",
+    "static/js/2.7131f240.chunk.js": "/login/static/js/2.7131f240.chunk.js",
+    "static/js/2.7131f240.chunk.js.map": "/login/static/js/2.7131f240.chunk.js.map",
+    "index.html": "/login/index.html",
+    "precache-manifest.fa263119fcce43eef6e1d705182f31a3.js": "/login/precache-manifest.fa263119fcce43eef6e1d705182f31a3.js",
+    "service-worker.js": "/login/service-worker.js",
+    "static/css/main.969a7493.chunk.css.map": "/login/static/css/main.969a7493.chunk.css.map",
+    "static/js/2.7131f240.chunk.js.LICENSE.txt": "/login/static/js/2.7131f240.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8bcbb2e5.js",
+    "static/js/runtime-main.975a3f31.js",
     "static/js/2.7131f240.chunk.js",
-    "static/css/main.757b9a11.chunk.css",
-    "static/js/main.9579791d.chunk.js"
+    "static/css/main.969a7493.chunk.css",
+    "static/js/main.39f58b13.chunk.js"
   ]
 }
