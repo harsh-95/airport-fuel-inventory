@@ -22,9 +22,9 @@ class TransactionForm extends Component{
 
         if(name === "transactionType"){
             if(value === "IN")
-                this.setState({ showAircraftField: true})
+                this.setState({ showAircraftField: false})
             else  
-                this.setState({ showAircraftField: false})     
+                this.setState({ showAircraftField: true})     
         }
 
     }
@@ -67,13 +67,7 @@ class TransactionForm extends Component{
                 }
 
                 this.props.handleTransactionSubmit(transactionObj)
-                this.setState({
-                    productName: '',
-                    category: '',
-                    description: '',
-                    price: '',
-                    errorMsg: ''
-                })
+
                 console.log("modal closed ");
                 this.props.closeModal();
             }
@@ -98,11 +92,11 @@ class TransactionForm extends Component{
                 <span className="errorMsg">{this.state.errorMsg}</span>
                 <form className="form">
                 <div className="formInput">
-                    <   div className="label"><label>Airport Id*</label></div>
+                    <   div className="label"><label>Airport*</label></div>
                         <div className="input">
                             <select name="airportId" value={this.state.airportId} onChange={this.handleChange}>
                                 <option hidden> 
-                                    Select Airport Id 
+                                    Select Airport 
                                 </option> 
                                 {airportsList
                                 ? airportsList.map(({airport_id, airport_name}, i) => <option key={i} value={airport_id}>{airport_name}</option> )

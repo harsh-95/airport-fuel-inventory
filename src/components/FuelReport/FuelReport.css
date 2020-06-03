@@ -1,7 +1,3 @@
-.reportDiv table{
-    margin: unset;
-}
-
 .reportDiv table tr th{
     min-width: 80px;
 }
@@ -16,4 +12,5 @@
 
 .reportDiv .fontBold{
     font-weight: 700;
+    font-size: 13px;
 }

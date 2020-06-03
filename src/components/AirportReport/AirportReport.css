@@ -1,11 +1,25 @@
 .reportContainerDiv{
-    margin-left: 35%;
     width: 50%;
     text-align: left;
+    margin: auto;
+}
+
+h2{
+text-align: center;
+}
+
+.reportDiv{
+    width: fit-content;
+    margin: auto;
 }
 
 .reportDiv table{
     margin: auto;
+    text-align: left;
+    margin: auto;
+}
+
+.reportDiv p{
     text-align: left;
 }
 

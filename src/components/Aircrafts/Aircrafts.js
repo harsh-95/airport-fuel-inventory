@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react';
-import {fetchAircrafts} from '../../api';
+import React from 'react';
 import './Aircrafts.css';
 import {withContext} from '../../context';
 
