@@ -1,5 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import './Signin.css';
+import { withRouter } from "react-router-dom";
+import { users } from '../../api/data';
+import auth from '../../auth'
 
 class Signin extends Component{
 
@@ -17,7 +20,16 @@ class Signin extends Component{
 
     handleSubmit = (e) => {
         e.preventDefault();
-        this.props.handleSignin(this.state);
+        const {email, password} = this.state;
+
+        // check if user is registered
+        const getUser = users.filter((userObj) => userObj.email === email && userObj.password === password);
+
+        if (getUser.length) {
+            auth.login(() => {
+                this.props.history.push("/");
+            });
+        }
     }
 
     render(){
@@ -51,4 +63,4 @@ class Signin extends Component{
         )
     }
 }
-export default Signin;
+export default withRouter(Signin);

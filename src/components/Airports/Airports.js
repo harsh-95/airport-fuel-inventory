@@ -14,10 +14,10 @@ const Airports = ({airportsList, transactionsList, sortByColumn}) => {
         <table cellSpacing="5px">
             <thead>
                 <tr>
-                    <th onClick={() => sortByColumn("airportsList", "airport_id")}>Airport Id <i class="fas fa-sort"></i></th>
-                    <th onClick={() => sortByColumn("airportsList", "airport_name")}>Airport Name <i class="fas fa-sort"></i></th>
+                    <th onClick={() => sortByColumn("airportsList", "airport_id")}>Airport Id <i className="fas fa-sort"></i></th>
+                    <th onClick={() => sortByColumn("airportsList", "airport_name")}>Airport Name <i className="fas fa-sort"></i></th>
                     <th>Fuel Capacity</th>
-                    <th onClick={() => sortByColumn("airportsList", "fuel_available")}>Fuel Available <i class="fas fa-sort"></i></th>
+                    <th onClick={() => sortByColumn("airportsList", "fuel_available")}>Fuel Available <i className="fas fa-sort"></i></th>
                 </tr>
             </thead> 
             <tbody className="center">
@@ -33,7 +33,7 @@ const Airports = ({airportsList, transactionsList, sortByColumn}) => {
                                 <td>
                                     <span>{fuel_capacity}</span>
                                 </td>
-                                <td  class="right">
+                                <td  className="right">
                                     <span className="latestTransationQty">
                                         {latestTransaction  && latestTransaction.airportId  === airport_id
                                         ?latestTransaction.transactionType === "IN"

@@ -10,7 +10,7 @@ import { fetchAircrafts, fetchAirports } from './api';
 import Popup from './components/Popup/Popup';
 import Reports from './components/Reports/Reports';
 import Header from './components/Header/Header';
-import { users } from './api/data';
+import ProtectedRoute  from './protected.route';
 
 class App extends Component {
 
@@ -108,12 +108,7 @@ class App extends Component {
   }
 
   handleSignin = ({ email, password }) => {
-    // check if user is registered
-    const getUser = users.filter((userObj) => userObj.email === email && userObj.password === password);
 
-    if (getUser.length) {
-      window.location = "/";
-    }
   }
 
   render() {
@@ -124,7 +119,7 @@ class App extends Component {
             <Switch>
               <Route path="/login" render={props =>
                 <Signin handleSignin={this.handleSignin} />} />
-              <Route exact path='/' render={props =>
+              <ProtectedRoute exact path='/' render={props =>
                 <Fragment>
                   <Header />
                   <div className="mainContainer">
@@ -135,7 +130,7 @@ class App extends Component {
                   <Transactions />
                 </Fragment>
               } />
-              <Route path="/reports" component={Reports} />
+              <ProtectedRoute path="/reports" render={props => <Reports/> } />
             </Switch>
           </div>
         </BrowserRouter>
